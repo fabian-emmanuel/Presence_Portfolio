@@ -136,7 +136,7 @@
     height: 80px;
   }
 
-  @media screen and (min-width: 2000px) {
+  @media screen and(min-width: 2000px) {
     div:nth-child(2) {
       width: 400px;
       height: 400px;
@@ -153,7 +153,7 @@
     }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and(max-width: 1200px) {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -190,7 +190,7 @@
     height: 90%;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and(max-width: 1200px) {
     margin: 2rem 0;
   }
 }

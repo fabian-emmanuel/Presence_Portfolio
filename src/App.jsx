@@ -1,4 +1,4 @@
-import {About, Footer, Header, Skills, Testimonials, Works} from "./containers";
+import {About, Footer, Header, Skills, Testimonials, Work} from "./containers";
 import {Navbar} from "./components";
 import './_App.scss'
 
@@ -7,7 +7,7 @@ const App = () => (
             <Navbar/>
         <Header/>
         <About/>
-        <Works/>
+        <Work/>
         <Skills/>
         <Testimonials/>
         <Footer/>
